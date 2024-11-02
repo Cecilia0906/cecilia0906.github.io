@@ -1,0 +1,82 @@
+
+17-9-2023
+
+
+
+Necesito los conocimientos para:
+
+- Implementar pagos online en Interassist.
+- Crear web service para Plataformas.
+
+
+Para realizar esto se necesita:
+
+- Seguridad, para que haya seguridad hay que trabajar la infraestructura:
+
+- Version php actual, la 8.2(ahora se tiene la 7.0), esto implica actualizar el framework laravel.
+- Certificado SSL, para que las paginas sean https.
+- Hacer actualizaciones en el sistema Ubuntu como minimo una vez por semana, esto es update y upgrade.
+   Aca hay que tener una instancia paralela.
+- Grupos de seguridad en AWS, en realidad solo deberian estar los puertos para http y https, ssh. Hay otro que no se porque estan.
+
+
+Mas allá de la seguridad estaría bueno automatizar las cargas, para eso necesito saber mas de bash scripting.
+
+
+
+Ya hecho:
+
+ Cursos en Udemy: 
+ 
+- Shell Bash de Linux: Comandos para el manejo de texto
+- Guía completa para actualizar Laravel hasta la versión 9
+- Aprende a crear paquetes reutilizables para Laravel PHP
+
+
+
+Otros que me convienen:
+
+
+- AWS automatizar procesos.
+- Bash Scripting.
+
+Concretos en Udemy:
+
+- Comandos de Linux: desde cero hasta programar Shell Script
+
+
+
+------------------------
+Tareas previas:
+
+- Actualizar db. Creo va a ser pronto.
+
+
+
+------------------------
+Resumiento ideas:
+
+
+Lo que necesito es el tema de la automatización , no solo en shell sino en aws.
+El proceso sería, crear snapshot, de esa snapshhot crear la ec2, de eso actualizar, cambiar ip elastica  , 
+Luego borrar instancia anterior?? aca no se cual sería la mejor forma de hacerlo. O si es mejor siempre tener dos instancias e ir intercambiandolas.
+
+NO se cual es la rama de aws que estudia eso..
+
+aws automatización de procesos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
